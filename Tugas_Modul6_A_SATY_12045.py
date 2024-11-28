@@ -5,7 +5,7 @@ from tensorflow.keras.models import load_model
 from PIL import Image
 
 # Load model
-model = load_model(r"D:\Semester 5\Mesin\Tugas6_A_12045\gugelnet.h5")
+model = load_model(r"gugelnet.h5")
 class_name = ['Matang', 'Mentah']
 
 # Fungsi untuk mengklasifikasi gambar
